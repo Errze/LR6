@@ -71,6 +71,7 @@
 # Создание новой ветки для отчета
 Создание новой ветки осуществляется с помощью команды:
 `git checkout -b report`
+
 `git push --set-upstream origin report`
 
 # История операций
@@ -79,14 +80,23 @@
 
 # Лог комманд
 `git pull`
+
 `git log --all --graph --decorate --oneline`
+
 `git log`
+
 `git merge origin/branch1`
+
 `git push origin --delete --remote origin/branch1`
+
 `git reset HEAD~1`
+
 `git checkout -b report`
+
 `git push --set-upstream origin report`
+
 `git log --pretty=format:"%h - %ad - %an - %s" --date=format:"%d.%m.%Y %H:%M:%S"`
+
 
 # Выводы
 При выполнении лабораторной работы были изучены базовые возможности системы
