@@ -111,15 +111,15 @@
 
 # Лог команд
 
-`git pull`
-`git log --all --graph --decorate --oneline`
-`git log`
-`git merge origin/branch1`
-`git push origin --delete --remote origin/branch1`
-`git reset HEAD~1`
-`git checkout -b report`
-`git push --set-upstream origin report`
-`git log --pretty=format:"%h - %ad - %an - %s" --date=format:"%d.%m.%Y %H:%M:%S"`
+`git pull 
+git log --all --graph --decorate --oneline
+git log
+git merge origin/branch1
+git push origin --delete --remote origin/branch1
+git reset HEAD~1
+git checkout -b report
+git push --set-upstream origin report
+git log --pretty=format:"%h - %ad - %an - %s" --date=format:"%d.%m.%Y %H:%M:%S"`
 
 
 # Выводы
